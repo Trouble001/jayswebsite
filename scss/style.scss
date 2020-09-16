@@ -1,0 +1,24 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+@import "./overlay.scss";
+
+@import "./header.scss";
+
+@import "./main.scss";
+
+@import "./top-to-bottom.scss";
+
+@import "./footer.scss";
